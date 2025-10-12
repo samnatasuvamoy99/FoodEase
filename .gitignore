@@ -1,0 +1,10 @@
+Note.md
+src/Components/userclass.jsx
+dist
+path/to/large-file.ext
+Rtk.md
+node_modules
+
+node_modules/
+dist/
+.parcel-cache/

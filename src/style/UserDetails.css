@@ -1,0 +1,65 @@
+.userdetails{
+   width: 1200px;   /* fixed width */
+  height:  800px ;
+    background-color: #e6dad4; 
+    display: flex;
+    justify-content: center;
+    padding-top: 60;
+}
+
+.Maincard{
+    
+  width: 300px;
+  height:  470px; /* increased from 350px */
+  border: 1px solid gray;
+  box-shadow: rgba(244, 2, 2, 0.2)  2px 5px 8px;
+  background-color: rgb(221, 114, 68);
+  
+  border-radius: 12px;
+ overflow: hidden;
+  transition: all 0.2s ease;
+  gap:12px;
+  margin-left: 7px;
+  
+}
+
+
+ .carddetail{
+    width: 200px;
+    height: 200px;
+    border-radius: 102px;
+    margin-right:3px ;
+    padding:5px;
+ }
+.pic{
+    justify-items: center;
+    margin-left:40px ;
+}
+
+ .contacts{
+         display: flex;            /* make it a flex container */
+       flex-direction: column;   
+         gap: 10px; 
+        padding:12px; 
+        margin-left: 25px;
+        margin-bottom:5px;
+        color: rgb(63, 66, 69);      
+ }
+
+ .socialaccount{
+     display: flex;
+      justify-content: space-between;
+ }
+ .insta {
+  width: 40px;
+  height: 40px;
+  border-radius: 30;
+
+
+}
+
+.twitter{
+    width: 60px;
+    height: 40px;
+  border-radius:30;
+}

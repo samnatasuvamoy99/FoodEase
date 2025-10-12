@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background-color: #efeded;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.header nav {
+  float: right;
+  margin-right: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.header nav a.active {
+  text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 0;
+  background-color: #fff5f0;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: auto px;
+   transition: border-color 0.3s ease, transform 0.2s ease; 
+  
+
+}
+
+.card:hover{
+  
+  outline: 2px solid rgb(225, 94, 61);
+   
+     transform: translateY(-4px);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: black;
+
+
+}
+
+.card :hover{
+     color: rgb(222, 82, 31);
+}
+
+
+
+.card p {
+  color: #777;
+  font-size: 16px;
+   
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
