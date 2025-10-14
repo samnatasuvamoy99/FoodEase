@@ -1,6 +1,6 @@
 
 # FoodEase
->>>>>>> 29ea66bab0226a23ab15e1ff3b305b9de215197b
+>> 29ea66bab0226a23ab15e1ff3b305b9de215197b
 
 
 # FoodEase
@@ -30,5 +30,5 @@ cd FoodEase
 npm install
 npm run dev
 
-@@@@suvamoy
+@@@@suvamoy99
 
