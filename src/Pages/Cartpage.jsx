@@ -11,8 +11,10 @@ export const Cartpages = () => {
     
   console.log(Totalcart);
   return (
-    <div className="w-screen h-screen  bg-gray ">
-      <div className=" flex flex-col justify-items-center ">
+         
+    <div className="w-screen h-screen  bg-gray">
+    
+<div className=" flex flex-col">
         <div>
           <b> Cart</b>
         </div>
