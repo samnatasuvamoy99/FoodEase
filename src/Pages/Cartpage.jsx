@@ -1,26 +1,39 @@
-import {Cartcard} from "../Components/cartCard"
+import { Cartcard } from "../Components/cartCard"
 import { useSelector } from "react-redux";
 
-export const Cartpages = ()=>{
-      
-const Totalcart = useSelector((store) => store.cart.items);
-        
-      
-  console.log( Totalcart )
-      return(
-             <div className="w-screen h-screen bg-gray">
-                    {Totalcart.map((cartD)=>(
+export const Cartpages = () => {
 
-                  <div className="flex flex-col gap-1">
+  //subscribing the items
+  const Totalcart = useSelector((store) => store.cart.items);
 
-                    <Cartcard  key={cartD.id} {...cartD} />
-              
-                    </div>
-         
+  // subscribing hole store??
+    // const  store = useSelector((store)=>store);
+    
+  console.log(Totalcart);
+  return (
+    <div className="w-screen h-screen  bg-gray ">
+      <div className=" flex flex-col justify-items-center ">
+        <div>
+          <b> Cart</b>
+        </div>
+        <div>
+          {Totalcart.length == 0 && <b>Please Add some Food</b>}
+        </div>
 
-                    ))}
-       
-       </div>
-      )
-      
+      </div>
+
+      {Totalcart.map((cartD) => (
+
+        <div key={cartD.id} className="flex flex-col gap-2">
+
+          <Cartcard  {...cartD} />
+
+        </div>
+
+
+      ))}
+
+    </div>
+  )
+
 }

@@ -210,7 +210,11 @@ margin-left: 45px;
 
 .Addcard:hover{
     padding:8px;
+    
 
+}
+button:active{
+ background-color: #ff7a00;
 }
 .toprated-filter {
   background: linear-gradient(135deg, #ff7a00, #28a745);

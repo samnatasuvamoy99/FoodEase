@@ -50,16 +50,16 @@ const About = () => {
       {/* Team Section */}
       <section className="team-section">
         <div className="container">
-          <h2>Meet Our Team 
+          <div>
+             <h2>Meet Our Team </h2>
 
         {/* access the data context   */}
-       <UserContext.Consumer>
-         {({loggedInUser})=>(
-            <h1>{loggedInUser}</h1>
-         )}
-       </UserContext.Consumer>
-        </h2>
-    
+
+              <h1 className="pb-4">{loggedInUser}</h1>
+       
+      
+        </div>
+  
           <div className="team-cards">
 
             <Link to="/userdetails" style={{ textDecoration: "none" }}>
