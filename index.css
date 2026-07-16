@@ -5,6 +5,7 @@
 
 
 .header {
+<<<<<<< HEAD
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -30,6 +31,18 @@
 
 .Logodv a:hover .LogoOrginal {
   transform: scale(1.1) rotate(5deg);
+=======
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5ded6; /* main orange */
+  border-bottom: 1px solid rgb(240, 128, 83);
+}
+
+.LogoOrginal {
+  width: 100px;
+  border-radius: 100px;
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
 }
 
 .res-container {
@@ -39,6 +52,7 @@
   margin: 20px 34px;
 }
 
+<<<<<<< HEAD
 .av-items {
   display: flex;
   align-items: center;
@@ -159,6 +173,40 @@
   background: rgba(220, 53, 69, 0.1);
   border: 1px solid rgba(220, 53, 69, 0.2);
 }
+=======
+.av-items > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.av-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 500;
+  color: rgb(29, 176, 95);  
+}
+
+.av-items > ul > li > a {
+  color: mediumseagreen;      
+  text-decoration: none;     
+}
+
+
+.av-items > ul > li > a:hover {
+  text-decoration: underline; 
+  color:rgb(232, 126, 88);          
+}
+
+
+ .av-items>ul>li:hover{
+  color: rgb(232, 126, 88);
+  cursor: pointer;
+ 
+   
+ }
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
  .Search {
   display: flex;
   justify-content: center;

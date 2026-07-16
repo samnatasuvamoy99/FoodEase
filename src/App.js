@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import React, { useEffect, useState, lazy, Suspense } from "react";
+=======
+import React, { useEffect, useState, lazy } from "react";
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
 import ReactDOM from "react-dom/client";
 import { Header } from "./Components/Header";
 import { Body } from "./Components/Body";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
+<<<<<<< HEAD
+=======
+import About from "./Pages/About.js";
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
 import ContactUs from "./Pages/Contacts.js"
 import { UserDetails } from "./Components/UserDetails";
 import { UserContext } from "./Utils/Usercontext.jsx"
@@ -58,11 +66,15 @@ const appRoute = createBrowserRouter([
     children: [
       {
         path: "/about",
+<<<<<<< HEAD
         element: (
           <Suspense fallback={<div>Loading...</div>}>
             <About />
           </Suspense>
         )
+=======
+        element: <About />
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
 
       },
       {
@@ -103,8 +115,12 @@ const appRoute = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Suspense fallback={<div>Loading...</div>}>
       <RouterProvider router={appRoute} />
     </Suspense>
+=======
+    <RouterProvider router={appRoute} />
+>>>>>>> a2cbff3fa200537551cd18f90bbbafc5b5a6723a
   </React.StrictMode>
 );
