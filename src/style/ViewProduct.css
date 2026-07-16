@@ -1,0 +1,111 @@
+
+.Mainviewproduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #fffaf5, #ffe9d6);
+}
+
+/* Main product card */
+.Viewproduct {
+  width: 900px;
+  min-height: 550px;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+/* Hover effect */
+.Viewproduct:hover {
+  border: 3px solid rgb(255, 140, 0);
+  box-shadow: 0 12px 28px rgba(255, 140, 0, 0.3);
+  transform: scale(1.02);
+}
+
+/* Content wrapper */
+.cardDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+/* Image style */
+.imgview {
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 3px solid #ffa94d;
+  box-shadow: 0 4px 10px rgba(213, 147, 25, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.imgview:hover {
+  transform: scale(1.05);
+}
+
+
+.items {
+  flex: 1;
+  padding: 10px 20px;
+  color: #2e2e2e;
+}
+
+.itemsdetails b {
+  color: #e85c0d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.itemsdetails p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+
+.cardreview {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.review h1 {
+  font-size: 16px;
+  color: #16a34a;
+  font-weight: 600;
+}
+
+/* Tag Section */
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.tag div {
+  background: #e0ecff;
+  color: #2d5be3;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.tag div:hover {
+  background: #cfe0ff;
+  transform: scale(1.1);
+}
